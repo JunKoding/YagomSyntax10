@@ -28,7 +28,6 @@ someFunction(someOptionalParam: nil)
 
 // 옵셔널(Optional) - enum + general
 
-/*
 enum Optional<Wrapped>: ExpressibleByNilLiteral {
     case none
     case some(Wrapped)
@@ -37,7 +36,7 @@ enum Optional<Wrapped>: ExpressibleByNilLiteral {
 let optionalValue: Optional<Int> = nil
 let optionalValue: Int? = nil
 // 2개가 같은 표현.
-*/
+
 
 
 
